@@ -1,0 +1,131 @@
+section.contact-us .icon-envelope{
+    color: var(--subtitle);
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+
+section.contact-us .title{
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+
+section.contact-us .sub-title{
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.65rem;
+}
+
+section.contact-us .sub-title{
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.65rem;
+}
+
+section.contact-us label{
+    color: var(--subtitle);
+    white-space: nowrap;
+}
+
+section.contact-us #email,
+section.contact-us #message{
+    all: unset;
+    background-color: #3f3f4626;
+    border: 1px solid #3f3f46;
+    width: 16rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 1.1rem;
+}
+
+.light section.contact-us #email,
+.light section.contact-us #message{
+    background-color: rgba(255, 255, 255, 0162);
+    color: #232324;
+}
+
+section.contact-us #email:focus,
+section.contact-us #message:focus,
+section.contact-us #email:hover,
+section.contact-us #message:hover{
+    border: 1px solid var(--blue);
+}
+
+.light section.contact-us #email:focus,
+.ligth section.contact-us #message:focus,
+.light section.contact-us #email:hover,
+.light section.contact-us #message:hover{
+    border: 1px solid #4e5050
+}
+
+section.contact-us #message{
+    min-height: 9rem;
+    resize: vertical;
+}
+
+section.contact-us .submit{
+    background-color: rgba(36, 37, 46, 1);
+    padding: 0.75rem 2rem;
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 1.8rem;
+    border: 1px solid #3f3f46;
+}
+
+section.contact-us .submit:hover{
+    scale: 0.97;
+}
+
+section.contact-us p.d-flex{
+    display: flex;
+    font-size: 18px;
+    margin-top: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+section.contact-us p.d-flex .icon{
+    height: 60px;
+    margin-right: -10px;
+}
+
+section.contact-us .animation{
+    width: 500px;
+}
+
+@media (max-width:1250px) {
+    section.contact-us .animation{display: none;}
+}
+
+@media (max-width:700px) {
+
+    section.contact-us form{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    section.contact-us form div.d-flex{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    section.contact-us #email,
+    section.contact-us #message{
+        width: 100%;
+        margin-left: 0;
+        padding: 0.7rem 0;
+        margin-top: 1rem;
+    }
+
+    section.contact-us .submit{
+        width: 30%;
+        align-self: center;
+    }
+}
