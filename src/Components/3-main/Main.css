@@ -49,6 +49,7 @@ section.right-section.d-flex{
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15),
                 1px 1px 1px rgba(0, 0, 0, 0.15);
     width: 266px;
+    height: 300px;
     border: 1px solid #5dbcfc4d;
     border-radius: 5px;
     transition: 0.3s;
@@ -79,6 +80,10 @@ section.right-section.d-flex{
 
 .card .box{
     padding: 1rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 166px;
 }
 
 .card .box .title{

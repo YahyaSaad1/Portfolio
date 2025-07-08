@@ -46,6 +46,12 @@ section.hero .all-icons{
     color: var(--subtitle);
 }
 
+section.hero .all-icons .icon{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
 section.hero .all-icons .icon:hover{
     font-size: 1.4rem;
     transition: 0.3s;

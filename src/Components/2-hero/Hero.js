@@ -28,10 +28,18 @@ function Hero(){
                 <p className="sub-title">Front-End Developer with strong experience in React, building dynamic, responsive interfaces with high design accuracy. I turn Figma concepts into engaging, user-friendly web apps. Passionate about UI precision, seamless interactions, and delivering polished experiences.</p>
 
                 <div className="d-flex all-icons">
-                    <div className="icon icon-twitter"></div>
-                    <div className="icon icon-instagram"></div>
-                    <div className="icon icon-github"></div>
-                    <div className="icon icon-linkedin-square"></div>
+                    <a className="icon" href="https://x.com/Ya7yaSaad?" target="_blank" rel="noopener noreferrer">
+                        <div className="icon icon-twitter"></div>
+                    </a>
+                    <a className="icon" href="https://www.instagram.com/yahyasaad0" target="_blank" rel="noopener noreferrer">
+                        <div className="icon icon-instagram"></div>
+                    </a>
+                    <a className="icon" href="https://github.com/YahyaSaad1" target="_blank" rel="noopener noreferrer">
+                        <div className="icon icon-github"></div>
+                    </a>
+                    <a className="icon" href="https://www.linkedin.com/in/yahyasaad1" target="_blank" rel="noopener noreferrer">
+                        <div className="icon icon-linkedin-square"></div>
+                    </a>
                 </div>
 
             </div>

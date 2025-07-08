@@ -6,12 +6,12 @@ function Main() {
     const [currentFilter, setCurrentFilter] = useState("all");
 
     const myProjects = [
-        { title: "React project",       subTitle: "...", category: "react",      imagepath: "1" },
-        { title: "Landing HTML",       subTitle: "...", category: "html",       imagepath: "2" },
-        { title: "Portfolio CSS",      subTitle: "...", category: "css",        imagepath: "3" },
-        { title: "JS Game",            subTitle: "...", category: "js",         imagepath: "4" },
-        { title: "Bootstrap Dashboard",subTitle: "...", category: "bootStrap",  imagepath: "5" },
-        { title: "Tailwind Template",  subTitle: "...", category: "Tailwind",   imagepath: "6" },
+        { title: "Agazaty",       subTitle: "Agazaty is an electronic system for managing, submitting, and tracking employee leaves in companies and universities.", link:'https://agazaty.vercel.app/', github:'https://github.com/YahyaSaad1/Agazaty', more:'', category: "react",      imagepath: "1" },
+        { title: "Landing HTML",       subTitle: "...", link:'', github:'', more:'', category: "html",       imagepath: "2" },
+        { title: "Portfolio CSS",      subTitle: "...", link:'', github:'', more:'', category: "css",        imagepath: "3" },
+        { title: "JS Game",            subTitle: "...", link:'', github:'', more:'', category: "js",         imagepath: "4" },
+        { title: "Bootstrap Dashboard",subTitle: "...", link:'', github:'', more:'', category: "bootStrap",  imagepath: "5" },
+        { title: "Tailwind Template",  subTitle: "...", link:'', github:'', more:'', category: "Tailwind",   imagepath: "6" },
     ];
 
     const handleFilter = (categories) => setCurrentFilter(categories);
@@ -52,13 +52,20 @@ function Main() {
                     key={index} className="card">
                         <img src={`/images/${project.imagepath}.jpg`} alt="project" />
                         <div className="box">
-                        <h1 className="title">{project.title}</h1>
-                        <p className="sub-title">{project.subTitle}</p>
+                        <div>
+                            <h1 className="title">{project.title}</h1>
+                            <p className="sub-title">{project.subTitle}</p>
+                        </div>
 
                         <div className="d-flex icons">
                             <div style={{gap: "11px"}} className="d-flex">
-                            <div className="icon-link" />
-                            <div className="icon-github" />
+                            <a className="icon" href="https://agazaty.vercel.app" target="_blank" rel="noopener noreferrer">
+                                <div className="icon icon-link"></div>
+                            </a>
+
+                            <a className="icon" href="https://github.com/YahyaSaad1/Agazaty" target="_blank" rel="noopener noreferrer">
+                                <div className="icon icon-github"></div>
+                            </a>
                             </div>
                             <a className="d-flex link" href="/#">
                                 more <span className="icon-arrow-right" />

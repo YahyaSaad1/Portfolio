@@ -13,7 +13,7 @@ function Contact(){
                 <span className="icon-envelope"/>
                 Contact Us
             </h1>
-            <p className="sub-title">Contact Us Contact Us Contact Us Contact Us Contact Us</p>
+            <p className="sub-title">Feel free to send me a message and I’ll get back to you as soon as possible.</p>
 
             <div className="d-flex" style={{justifyContent: 'space-between'}}>
                 <form onSubmit={handleSubmit}>
