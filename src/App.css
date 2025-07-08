@@ -99,7 +99,7 @@ button:disabled{
         padding: 0 var(--container-padding);
     }
     .divider{
-        width: calc(100% + var(--container-padding)*2);
+        width: calc(100% + var(--container-padding));
         margin-left: calc(var(--container-padding)-1);
     }
 }
