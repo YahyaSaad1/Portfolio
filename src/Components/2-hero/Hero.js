@@ -44,9 +44,9 @@ function Hero(){
 
             </div>
             <div className="animation">
-                <Lottie lottieRef={lottieRef} onLoadedImages={()=>{
+                <Lottie className="icon-dev" lottieRef={lottieRef} onLoadedImages={()=>{
                     lottieRef.current.setSpeed(0.5)
-                }} className="icon" animationData={devAnimation} />
+                }} animationData={devAnimation} />
             </div>
         </section>
     )

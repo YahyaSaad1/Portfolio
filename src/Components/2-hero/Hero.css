@@ -63,8 +63,24 @@ section.hero .animation{
     translate: 100px 55px;
 }
 
+.icon-dev{
+    width: 450px;
+}
+
 @media (max-width: 1250px) {
     section.hero .animation{
         display: none;
+    }
+}
+
+@media (max-width: 1520px) {
+    .icon-dev{
+        width: 400px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .icon-dev{
+        width: 350px;
     }
 }
