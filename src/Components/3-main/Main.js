@@ -8,7 +8,7 @@ function Main() {
     const myProjects = [
         { title: "Agazaty",       subTitle: "Agazaty is an electronic system for managing, submitting, and tracking employee leaves in companies and universities.", link:'https://agazaty.vercel.app/', github:'https://github.com/YahyaSaad1/Agazaty', more:'', category: "react",      imagepath: "1" },
         { title: "Restaurant",       subTitle: "An interactive restaurant landing page built with React. Features responsive design, animations, food sections, customer reviews, and contact info.", link:'https://restaurant-sable-eta.vercel.app/', github:'https://github.com/YahyaSaad1/Restaurant', more:'', category: "react",      imagepath: "2" },
-        { title: "Portfolio CSS",      subTitle: "...", link:'', github:'', more:'', category: "css",        imagepath: "3" },
+        { title: "Food-Dynasty",      subTitle: "A captivating design showcasing a fine-dining experience with creative dishes, distinctive flavors, and a warm, inviting atmosphere.", link:'https://food-dynasty.vercel.app/', github:'https://github.com/YahyaSaad1/Food-Dynasty', more:'', category: "html",        imagepath: "3" },
         { title: "JS Game",            subTitle: "...", link:'', github:'', more:'', category: "js",         imagepath: "4" },
         { title: "Bootstrap Dashboard",subTitle: "...", link:'', github:'', more:'', category: "bootStrap",  imagepath: "5" },
         { title: "Tailwind Template",  subTitle: "...", link:'', github:'', more:'', category: "Tailwind",   imagepath: "6" },
