@@ -59,11 +59,11 @@ function Main() {
 
                         <div className="d-flex icons">
                             <div style={{gap: "11px"}} className="d-flex">
-                            <a className="icon" href=href={project.link} target="_blank" rel="noopener noreferrer">
+                            <a className="icon" href={project.link} target="_blank" rel="noopener noreferrer">
                                 <div className="icon icon-link"></div>
                             </a>
 
-                            <a className="icon" href=href={project.github} target="_blank" rel="noopener noreferrer">
+                            <a className="icon" href={project.github} target="_blank" rel="noopener noreferrer">
                                 <div className="icon icon-github"></div>
                             </a>
                             </div>
